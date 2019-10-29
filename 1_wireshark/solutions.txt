@@ -1,0 +1,68 @@
+# Your UW ID and your name - there is no special format for this. (This homework ought to be done individually)
+latonis - Jacob Latonis - 9077699917
+
+# Trace 1: HTTP
+## Give three websites (domain Nname and IP addresses) visited from source IP address `192.168.0.100`
+
+Domain Name | IP Address
+1. Amazon.com | 205.251.242.54
+2. Baidu.com | 180.76.3.151
+3. madisonproperty.com | 50.93.210.4
+ 
+## Give three search queries and the domain of the site for each query made from source IP address `192.168.0.100`
+
+Query | Domain
+1. chicago metro | bing.com
+2. Madison map | bing.com
+3. Adventures in Stochastic Processes | amazon.com
+
+# Trace 2: FTP
+## What is the user name and password used to connect to the FTP server?
+
+Username: shiningmoon
+Password: public
+
+## List any (and all) files that were downloaded.
+
+dragon.zip
+ARP.java
+L2Switch.java
+phase1.html
+
+## List the full path for two files (in different directories) on the FTP server that were NOT downloaded.
+
+Home directory
+/jerry5tests.zip
+
+Not home directory
+/TeNet/tester.build.111128.jar
+
+# Trace 3: Traceroute
+## Briefly describe how the traceroute tool works including which network protocols are in use.
+
+Traceroute uses a combination of UDP (User Datagram Protocol) and ICMP (internet control message protocol) packets with TTL values to calculate response times between hops.
+
+## Give the source IP address that issued the traceroute command and the destination IP address.
+// TODO
+## List the IP addresses on the route between source and destination.
+// TODO
+
+# Trace 4: POP
+## What is the POP username and password?
+Username: cs155@dummymail.com
+Password: white hat
+## How many emails are in the user's mailbox?
+
+5 messages
+
+## Give the contents of from, to, subject, and date for one email message.
+
+From: hariny <harinym@stanford.edu>
+To: cs155@dummymail.com
+Subject: test message
+Date: Fri, 23 Apr 2010 10:25:00 -0700
+
+## What email client (application) and operating system is this person using to send and receive email?
+
+Client: Thunderbird 2.0.0.23
+OS: Windows
