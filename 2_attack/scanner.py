@@ -1,3 +1,4 @@
+# Jacob Latonis
 import sys
 import dpkt
 import binascii
@@ -38,8 +39,6 @@ def testFlood(ethData, IP, timeStamp, pktCount):
             print("IP: " + str(socket.inet_ntoa(ethData.dst)))
             print("Packet number: " + str([packet['packetNum'] for packet in packets])[1:-1])
             packets=[]
-
-
     else:
         non_handshake_syn_flood[dstIPandPort] = [{'source': ethData.src, 'destination': socket.inet_ntoa(ethData.dst), 'timeStamp': timeStamp, 'packetNum': pktCount}]
 
